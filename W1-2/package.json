@@ -1,0 +1,11 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "deploy:local":"yarn hardhat run scripts/deploy.ts --network  localhost"
+
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.13.0"
+  }
+}
